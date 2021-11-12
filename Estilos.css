@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: crimson;
+}
+
+#contenedor {
+    width: 1100px;
+    margin: 0px auto;
+    border: 2px solid blueviolet;
+    background-color: salmon;
+    
+}
+
+header {
+    background-color: coral;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    color: black;
+    border-bottom: 3px solid maroon;
+}
+
+aside {
+    background-color: mediumorchid;
+    border-bottom: 3px solid purple;
+    text-align: center;
+}
+
+input {
+    background-color: midnightblue;
+    height: 30px;
+    border-bottom: 1px solid blue;
+    color: white;
+}
+
+article {
+    background-color: lightgray;
+    height: 140px;
+    width: 500px;
+    color: black;
+    border: 4px solid lightblue;
+    margin: auto;
+}
+
+
+
+h4{
+    background-color: fuchsia;
+    text-align: center;
+    border-bottom: 3px solid purple;
+}
+
+footer {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: bisque;
+    width: 90%;
+    max-width: 762px;
+    margin: auto;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: red;
+    padding: 20px;
+    display: block;
+
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: cyan;
+}
+
+
+p.centrado{
+    text-align: center;
+}
